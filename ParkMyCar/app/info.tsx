@@ -4,9 +4,9 @@ import { Link } from 'expo-router';
 export default function Page() {
   return (
     <View>
-      <Text>Top-level page</Text>
+      <Text>Info Page</Text>
       <Link href="/about">About</Link>
-      <Link href="/info">Info</Link>
+      <Link href="/">Home</Link>
     </View>
   );
 }
