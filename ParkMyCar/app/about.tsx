@@ -5,8 +5,7 @@ import styles from '../styles/baseStyles';
 export default function Page() {
   return (
     <View>
-      <Text style={styles.title}>About page</Text>
-      <Link href="/">Home Page</Link>
+      <Text style={styles.title}>This is about page</Text>
     </View>
   );
 }

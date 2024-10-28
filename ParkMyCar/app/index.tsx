@@ -1,12 +1,5 @@
-import { Pressable, Text, View } from 'react-native';
-import { Link } from 'expo-router';
+import HomePage from "../components/homePage";
 
 export default function Page() {
-  return (
-    <View>
-      <Text>Top-level page</Text>
-      <Link href="/about">About</Link>
-      <Link href="/info">Info</Link>
-    </View>
-  );
+  return <HomePage />;
 }
