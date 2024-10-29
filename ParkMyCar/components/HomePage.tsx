@@ -1,5 +1,6 @@
 import { Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import TabLayout from '../app/(drawer)/(tabs)/_layout';
 
 export default function HomePage() {
   const insets = useSafeAreaInsets(); // Get safe area insets
@@ -20,4 +21,3 @@ export default function HomePage() {
     </View>
   );
 }
- 

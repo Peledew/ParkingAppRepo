@@ -1,6 +1,6 @@
 import { Link } from 'expo-router';
 import { Text, View } from 'react-native';
-import styles from '../styles/baseStyles';
+import styles from '../../styles/baseStyles';
 
 export default function Page() {
   return (

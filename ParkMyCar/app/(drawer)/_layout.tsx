@@ -15,7 +15,7 @@ export default function Layout() {
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { Drawer } from 'expo-router/drawer';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-
+import TabLayout from './(tabs)/_layout';
 export default function Layout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
@@ -27,6 +27,7 @@ export default function Layout() {
               drawerLabel: 'Home',
               title: 'Home page',
             }}
+           
           />
           <Drawer.Screen
             name="info"
@@ -48,6 +49,15 @@ export default function Layout() {
               drawerLabel: '',
               title: 'This page has not been found!',
               drawerItemStyle: { display: 'none' },
+            }}
+          />
+
+          <Drawer.Screen
+            name="(tabs)"
+            options={{
+              drawerLabel: 'tabs',
+              title: 'Tabs',
+              // drawerItemStyle: { display: 'none' },
             }}
           />
         </Drawer>
